@@ -80,12 +80,12 @@ public class MainActivity extends Activity {
     private static final int REQ_IMPORT = 1003;
 
     private static final String[][] ECOSYSTEM_APPS = {
-            {"Ethic Tuner", "org.jpi59.ethictuner", "Afinador cromático de máxima precisión", "https://github.com/jpi59/ethic-tuner"},
-            {"Ethic Compass", "org.jpi59.ethiccompass", "Brújula offline de sensores puros", "https://github.com/jpi59/ethic-compass"},
-            {"Ethic QR Scanner", "org.jpi59.ethicqrscanner", "Lector QR sin rastreadores", "https://github.com/jpi59/ethic-qr-scanner"},
-            {"Ethic Keyboard", "org.jpi59.teclado", "Teclado privado sin conexión a red", "https://github.com/jpi59/ethic-keyboard"},
-            {"Ethic APK Guard", "org.jpi59.ethicupdatesafe", "Instalador y verificador seguro de APKs", "https://github.com/jpi59/ethic-apk-guard"},
-            {"Ethic One Call", "org.jpi59.ethichandoff", "Gestor ético de llamadas de emergencia", "https://github.com/jpi59/ethic-one-call"}
+            {"Ethic Tuner", "org.jpi59.ethictuner", "Afinador cromático de máxima precisión", "https://github.com/IDEH-Labs/ethic-tuner"},
+            {"Ethic Compass", "org.jpi59.ethiccompass", "Brújula offline de sensores puros", "https://github.com/IDEH-Labs/ethic-compass"},
+            {"Ethic QR Scanner", "org.jpi59.ethicqrscanner", "Lector QR sin rastreadores", "https://github.com/IDEH-Labs/ethic-qr-scanner"},
+            {"Ethic Keyboard", "org.jpi59.teclado", "Teclado privado sin conexión a red", "https://github.com/IDEH-Labs/ethic-keyboard"},
+            {"Ethic APK Guard", "org.jpi59.ethicupdatesafe", "Instalador y verificador seguro de APKs", "https://github.com/IDEH-Labs/ethic-apk-guard"},
+            {"Ethic One Call", "org.jpi59.ethichandoff", "Gestor ético de llamadas de emergencia", "https://github.com/IDEH-Labs/ethic-one-call"}
     };
 
     private NotesDbHelper dbHelper;
@@ -1014,17 +1014,17 @@ public class MainActivity extends Activity {
         repoCard.addView(createActionRow(
                 R.drawable.ic_code,
                 getString(R.string.github_repo_label),
-                "github.com/jpi59/ethic-notes",
+                "github.com/IDEH-Labs/ethic-notes",
                 ink, muted, action,
-                v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/jpi59/ethic-notes")))
+                v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/IDEH-Labs/ethic-notes")))
         ));
         repoCard.addView(createDivider(cardStroke));
         repoCard.addView(createActionRow(
                 R.drawable.ic_code,
                 getString(R.string.gitlab_repo_label),
-                "gitlab.com/jpi59/ethic-notes",
+                "gitlab.com/ideh-labs/ethic-notes",
                 ink, muted, action,
-                v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://gitlab.com/jpi59/ethic-notes")))
+                v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://gitlab.com/ideh-labs/ethic-notes")))
         ));
         repoCard.addView(createDivider(cardStroke));
         repoCard.addView(createActionRow(

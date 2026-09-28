@@ -1,6 +1,10 @@
 # Ethic Notes
 
-> **Private, offline, zero-permission notes application for Android.**
+[![Get it on F-Droid](https://fdroid.gitlab.io/artwork/badge/get-it-on.png)](https://f-droid.org/packages/org.jpi59.ethicnotes/)
+[![F-Droid Version](https://img.shields.io/f-droid/v/org.jpi59.ethicnotes?logo=f-droid&logoColor=white&label=F-Droid&color=blue)](https://f-droid.org/packages/org.jpi59.ethicnotes/)
+[![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
+
+> **Private, offline, zero-permission notes application for Android by [IDEH Labs](https://ideh.top/).**
 
 Ethic Notes is designed with one unwavering principle: **your thoughts belong to you alone**. It delivers a fast, responsive note-taking experience with **zero permissions**, **zero network calls**, and **zero tracking**.
 
