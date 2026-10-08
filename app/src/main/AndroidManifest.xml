@@ -3,6 +3,16 @@
 
     <!-- Zero permissions: no internet, no storage, no background alarm, no device state. -->
 
+        <queries>
+        <package android:name="org.jpi59.ethicnotes" />
+        <package android:name="org.jpi59.ethiccompass" />
+        <package android:name="org.jpi59.ethicqrscanner" />
+        <package android:name="org.jpi59.teclado" />
+        <package android:name="org.jpi59.ethictuner" />
+        <package android:name="org.jpi59.ethicupdatesafe" />
+        <package android:name="org.jpi59.ethichandoff" />
+        <package android:name="org.senda.browser" />
+    </queries>
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"

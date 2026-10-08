@@ -1,31 +1,46 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/apk/res-auto"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Background circle -->
+    <path android:pathData="M54,4A50,50 0,1 0,54,104A50,50 0,1 0,54,4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="15"
+                android:startY="15"
+                android:endX="95"
+                android:endY="95"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FBBF24" />
+                <item android:offset="1.0" android:color="#EA580C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Notepad base in clean white -->
     <path
-        android:fillColor="#145C52"
-        android:pathData="M54,4 C81.61,4 104,26.39 104,54 C104,81.61 81.61,104 54,104 C26.39,104 4,81.61 4,54 C4,26.39 26.39,4 54,4 Z" />
-    
-    <!-- Shield Outline -->
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,28 L66,28 A6,6 0,0 1,72 34 L72,74 A6,6 0,0 1,66 80 L36,80 A6,6 0,0 1,30 74 L30,34 A6,6 0,0 1,36 28 Z" />
+    <!-- Spine margin -->
     <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="3.5"
+        android:fillColor="#FED7AA"
+        android:pathData="M30,34 A6,6 0,0 1,36 28 L40,28 L40,80 L36,80 A6,6 0,0 1,30 74 Z" />
+    <!-- Note ruled lines -->
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="2.5"
         android:strokeLineCap="round"
-        android:strokeLineJoin="round"
-        android:fillColor="#00000000"
-        android:pathData="M54,19 L32,27 C32,53 43,69 54,77 C65,69 76,53 76,27 Z" />
-        
-    <!-- Note Page lines inside shield -->
+        android:pathData="M44,38 L64,38" />
     <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="3"
+        android:strokeColor="#FDBA74"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
-        android:pathData="M43,38 L65,38 M43,47 L65,47 M43,56 L57,56" />
-
-    <!-- Pen / Quill Tip Accent in Gold -->
+        android:pathData="M44,46 L64,46 M44,54 L60,54 M44,62 L56,62" />
+    <!-- Stylus / Pencil in gold accent -->
     <path
-        android:fillColor="#F9A825"
-        android:pathData="M65,58 L72,65 L61,67 Z" />
+        android:fillColor="#FBBF24"
+        android:pathData="M66,60 L75,69 L70,72 L61,63 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M60,73 L65,71 L62,68 Z" />
 </vector>

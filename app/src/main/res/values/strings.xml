@@ -47,7 +47,7 @@
     <!-- Menu & Projects -->
     <string name="menu_title">About us</string>
     <string name="ecosystem_section">Projects</string>
-    <string name="ecosystem_desc">Sovereign, offline, privacy-first copyleft apps by jpi59.</string>
+    <string name="ecosystem_desc">Sovereign, offline, privacy-first copyleft apps by IDEH Labs.</string>
     <string name="app_installed">Installed</string>
     <string name="app_open">Open</string>
     <string name="app_view">View</string>
