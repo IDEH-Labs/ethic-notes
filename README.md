@@ -29,7 +29,7 @@ Ethic Notes is designed with one unwavering principle: **your thoughts belong to
 | **Package ID** | `org.jpi59.ethicnotes` |
 | **Minimum SDK** | Android 7.0 (API 24) |
 | **Target SDK** | Android 16 (API 36) |
-| **License** | GPL-3.0 |
+| **License** | GPL-3.0-or-later |
 | **Permissions** | 0 |
 | **Network Access** | None (100% Offline) |
 
@@ -49,4 +49,4 @@ Ethic Notes is designed with one unwavering principle: **your thoughts belong to
 
 ## License
 
-Licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for details.
+Licensed under the **GNU General Public License, version 3 or (at your option) any later version** (GPL-3.0-or-later). See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for details.

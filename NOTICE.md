@@ -4,7 +4,7 @@
 - **Application Name:** Ethic Notes
 - **Application ID:** `org.jpi59.ethicnotes`
 - **Maintainer:** jpi59
-- **License:** GNU General Public License v3.0 (GPL-3.0)
+- **License:** GNU General Public License, version 3 or any later version (GPL-3.0-or-later)
 
 ## Upstream Provenance & Context
 Ethic Notes is an independent, hardened, zero-permission adaptation inspired by the ethos of the Fossify Notes and Simple Mobile Tools projects:
