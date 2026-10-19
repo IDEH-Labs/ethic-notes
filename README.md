@@ -50,3 +50,7 @@ Ethic Notes is designed with one unwavering principle: **your thoughts belong to
 ## License
 
 Licensed under the **GNU General Public License, version 3 or (at your option) any later version** (GPL-3.0-or-later). See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for details.
+
+
+---
+An **[IDEH Labs](https://codeberg.org/IDEH-Labs)** project · [Codeberg](https://codeberg.org/IDEH-Labs/ethic-notes)
